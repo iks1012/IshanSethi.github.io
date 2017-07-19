@@ -1,0 +1,21 @@
+.back {
+    background-color: grey;
+}
+
+.default{
+	background-color: black;
+	color: white;
+}
+
+
+.header{
+	height: 10px;
+}
+
+.tab{
+	text-indent: 50px;
+}
+
+.space{
+	vertical-align: middle;
+}
