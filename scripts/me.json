@@ -1,0 +1,145 @@
+{
+	"name": "Ishan Sethi",
+	"email": "ishansethi8 at gmail dot com",
+	"linkedin": "https://www.linkedin.com/in/ishansethi101298/",
+	"github": "https://github.com/iks1012",
+	"education":{
+		"school": "Stony Brook University Class of 2020",
+		"degrees": ["B.S. in Computer Science", "B.S. in Applied Math and Statistics"],
+		"featuredCourses": ["CSE 308 - Software Engineering", "CSE 353 - Machine Learning", "CSE 320 - System Fundamentals II", "CSE 373 - Analysis of Algorithms"],
+		"featuredOrganizations": ["Theta Tau: Professional Co-Ed Fraternity", "Stony Brook Computing Society"]	
+	},
+	"skills":{
+		"softwareSkills": ["Java", "C/C++", "Python", "TypeScript/JavaScript", "HTML/CSS", "Git", "Bash", "Unix"],
+		"languages": ["English (Very Proficient)", "Hindi (Very Proficient)", "Mandarin (Limited Proficiency)"]
+	},
+	"workExperience":{
+		"technicalJobs":[
+			{
+				"jobTitle": "Software Engineer Intern",
+				"company": "Amazon.com",
+				"location": "New York, NY",
+				"timeFrame": "May 2019 - August 2019",
+				"description": [
+					"Designed, wrote and tested a visualizer using Angular and ChartJS to visualize business logic and make business impacting decisions.",
+					"Tied together various Amazon Web Services in the visualizer to create a “serverless” application.",
+					"Utilized AWS Lambda to handle queries that would normally be server-side queries. This allowed the cost of the application to be per usage rather than the cost of the standalone server.",
+					"Understood, Assimilated and Thrived in a large software engineering environment where the process for development was already set.",
+					"Worked with various experienced engineers to be able to gain an understanding of multiple aspects regarding a problem to then come up with a solution.",
+					"Secured return full-time offer"
+				]
+			},
+			{
+				"jobTitle": "Software Engineer and Robotics Intern",
+				"company": "InterDigital Inc",
+				"location": "Conshohocken, PA",
+				"timeFrame": "July 2018 - December 2018",
+				"description":[
+					"Developed a testbed using C and Qt that automates the capturing of radio frequency (RF) data in a network of various Internet of Things (IoT) devices such as Raspberry Pi, Arduino Modules, LoRa and LoRaWAN.",
+					"Utilized tools such as GDB and valgrind to overcome many bugs that were faced in the development process.",
+					"Captured and procured data at 50 times the speed in comparison to an older test bed that was being used.",
+					"Mastered skills revolving around a Unix development environment while being able to stay on track and consistently meet deadlines.",
+					"Implemented a machine learning pipeline to classify between the RF samples and identify which device was transmitting."
+				]
+			},
+			{
+				"jobTitle":"Computer Science Teaching Assistant",
+				"company": "Stony Brook Computer Science Department",
+				"location": "Stony Brook, NY",
+				"timeFrame": "August 2017 - December 2017",
+				"description": [
+					"Led large group recitation sessions of about 30 people, initiating discussions centered around different data structures",
+					"Conducted office hours to tutor peer’s one-on-one and in small groups to assert their understanding which resulted in higher grades",
+					"Communicated with the school faculty and met new students daily."
+				]
+			},
+			{
+				"jobTitle": "Lab Software Engineering Intern",
+				"company": "Shah Experimental Neurorehabilitation Laboratory @ Stony Brook",
+				"location": "Stony Brook, NY",
+				"timeFrame": "May 2017 - May 2018",
+				"description": [
+					"Remodeled the Spinal Cord Rehabilitation Research process by developing software using python to automate the process",
+					"Designed scripts that used neural EMG pattern recognition techniques for real-time stimulation adjustments for the test subjects.",
+					"Used MATLAB to create many scripts which allowed effective data visualization of multiple gigabytes of data."
+				]
+			},
+			{
+				"jobTitle": "Webpage/Application Development Intern",
+				"company": "Quantum Secure Inc",
+				"location": "San Jose, CA",
+				"timeFrame": "April 2014 - September 2014",
+				"description": [
+					"Contributed to the full stack development process by converting mock-up designs to websites for clients using HTML/CSS/JavaScript.",
+					"Implemented efficient ways to manage things such as Physical Identity through RFID systems."
+				]
+			}
+		],
+		"nonTechnicalJobs":[
+			{
+				"jobTitle": "FIRST Robotics Team #3624 - Engineering Lead",
+				"company": "Half Hollow Hills High School East",
+				"location": "Dix Hills, NY",
+				"timeFrame": "September 2015 – June 2016",
+				"description": [
+					"Utilized Autodesk Inventor to create an accurate representation of the current years robot before commencing production.",
+					"Assisted in the mechanical and electrical sides of the final robot production.",
+					"Worked with various frameworks and niche pieces of hardware to further develop skills in the IoT.",
+					"Elected as the M.V.P for the team at the SBPLI Hofstra regional."
+				]
+			},
+			{
+				"jobTitle": "Sales Associate",
+				"company": "Best Buy",
+				"location": "Huntington, NY",
+				"timeFrame": "July 2015 – January 2016",
+				"description": [
+					"Generated $400,000 in revenue over the span of 5 months of employment and was the number one associate in the PC department",
+					"Worked with multiple other associates and kept a strong sense of teamwork to continuously make monthly goals in terms of sales."
+				]
+			},
+			{
+				"jobTitle": "Teacher/Tutor (Math)",
+				"company": "Kumon Math and Reading Center",
+				"location": "Huntington, NY",
+				"timeFrame": "October 2014 – June 2015",
+				"description": [
+					"Taught students ranging from K to 12 all topics of Math for their level (Kumon Levels A to X).",
+					"Focused on specifically tailoring lessons towards individual students based on their learning style.",
+					"Occasionally met with students’ parents to introduce new levels and grading methods"
+				]
+			},
+			{
+				"jobTitle": "SASC Course Note Taker (CSE 532 - Theory of Database Systems)",
+				"company": "Stony Brook University",
+				"location": "Stony Brook, NY",
+				"timeFrame": "February 2019 - May 2019",
+				"description": [
+					"Attended lectures and take notes for an unidentified DSS/SASC student needing accommodations.",
+					"Organized and timely upload notes to the appropriate location so student could receive them weekly."
+				]
+			},
+			{
+				"jobTitle": "Welcome Wagon Quad Coordinator",
+				"company": "Stony Brook University",
+				"location": "Stony Brook, NY",
+				"timeFrame": "August 2017",
+				"description": [
+					"Monitored and led the helping of new students moving onto campus while telling them about the campus due to early exposure."
+				]
+			},
+			{
+				"jobTitle": "Engineering Project Chair",
+				"company": "Theta Tau Professional Co-Ed Engineering Fraternity",
+				"location": "Stony Brook, NY",
+				"timeFrame": "April 2017 – April 2018",
+				"description": [
+					"Oversee the production of all the projects that take place within the fraternity and with other organizations on campus."
+				]
+			}
+		]
+	},
+	"projects":{
+
+	}
+}
