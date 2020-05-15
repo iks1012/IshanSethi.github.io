@@ -10,7 +10,7 @@
 		"featuredOrganizations": ["Theta Tau: Professional Co-Ed Fraternity", "Stony Brook Computing Society"]	
 	},
 	"skills":{
-		"softwareSkills": ["Java", "C/C++", "Python", "TypeScript/JavaScript", "HTML/CSS", "Git", "Bash", "Unix"],
+		"softwareSkills": ["Java", "C/C++", "Python", "TypeScript/JavaScript", "HTML/CSS", "Git", "Bash", "Unix", "MySQL"],
 		"languages": ["English (Very Proficient)", "Hindi (Very Proficient)", "Mandarin (Limited Proficiency)"]
 	},
 	"workExperience":{
@@ -139,7 +139,63 @@
 			}
 		]
 	},
-	"projects":{
+	"projects":[
+		{
+			"projectTitle": "District Generation Tool",
+			"projectTime": "May 2019",
+			"projectType": "Class Project",
+			"projectDetails": [
+				"Designed, implemented, tested and debugged an application in a team of 4 that can be used for the generation of counties to avoid gerrymandering.",
+				"Incorporated various parameters such as political fairness, equal population, demographics, and geographical contiguity to generate objectively fair districts.",
+				"Used HTML/CSS/JavaScript for the front end, Java (Spring) for the backend, and MySQL to store the precinct data for the states.",
+				"Took use of python to implement a data pipeline that would filter incoming precinct data and place it on the database.",
+				"Utilized algorithms such as simulated annealing, graph partitioning, and region growing to generate the districts in multiple ways."
+			]
+		},
+		{
+			"projectTitle": "The Bavarde Server and Protocol",
+			"projectTime": "March 2018",
+			"projectType": "Class Project",
+			"projectDetails": [
+				"Used C to implement a messaging server hosted on one server that can handle multiple clients connecting to it.",
+				"Handled these multiple and concurrent connections using multi-threading and concurrency.",
+				"Developed an advanced understanding of POSIX threads while gaining an insight into the design of concurrent data structures.",
+				"Used signal processing to influence program control flow and to understand when certain actions occurred throughout the program.",
+				"Further developed maneuverability and productivity when working in a UNIX environment."
+			]
+		},
+		{
+			"projectTitle": "Super Monkey Ball w/ LeapMotion",
+			"projectTime": "April 2018",
+			"projectType": "Cemtrex Coding Challenge Award",
+			"projectDetails": [
+				"Recreated a simple implementation of the classic Super Monkey Ball Game using the Unity Game engine.",
+				"Integrated the LeapMotion controller with C# to implement hand gestures as the basis for control of the game.",
+				"Ended up presenting a hand gesture controller library that posed to control any current game with a set of hand gestures for scalability and ease of use amongst other platforms and games.",
+				"Expanded the library to support games like Pong, Guitar Hero, Tetris and more."
+			]
+		},
+		{
+			"projectTitle": "Scoliosis Diagnosis",
+			"projectTime": "February 2017",
+			"projectType": "Hack@CEWIT – Best Medical Application Sponsored by Softheon, Inc.",
+			"projectDetails": [
+				"Used Java for the processing and made an app using FXML for the GUI (Repository on GitHub).",
+				"Implemented the idea of using image processing captured by a regular webcam which then told the subject standing in front of it if they showed signs of structural scoliosis based on the direction of their spinal activity.",
+				"Demonstrated a simple solution that can be easily deployed helping many people around the world."
+			]
 
-	}
+		},
+		{
+			"projectTitle": "Metro Map Maker",
+			"projectTime": "December 2017",
+			"projectType": "Class Project",
+			"projectDetails": [
+				"Designed, implemented, tested and debugged an application that can be used to make Metro Station maps of various cities.",
+				"Designed the application using UML class diagrams and dynamic sequence diagrams to initially develop an understanding of the goal.",
+				"Implemented using Java, added support for the JSON file format and support for web app usage of said JSON files.",
+				"Debugged the application using the debugger built into NetBeans and IntelliJ"
+			]
+		}
+	]
 }
