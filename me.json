@@ -4,9 +4,10 @@
 	"linkedin": "https://www.linkedin.com/in/ishansethi101298/",
 	"github": "https://github.com/iks1012",
 	"education":{
+		"image": "images/sbu.jpg",
 		"school": "Stony Brook University Class of 2020",
 		"degrees": ["B.S. in Computer Science", "B.S. in Applied Math and Statistics"],
-		"featuredCourses": ["CSE 308 - Software Engineering", "CSE 353 - Machine Learning", "CSE 320 - System Fundamentals II", "CSE 373 - Analysis of Algorithms"],
+		"featuredCourses": ["CSE 308 - Software Engineering", "CSE 353 - Machine Learning", "CSE 320 - System Fundamentals II", "CSE 373 - Analysis of Algorithms", "AMS 320 - Quantitative Finance", "AMS 345 - Computational Geometry", "AMS 332 - Complex Modeling of Physiological Systems"],
 		"featuredOrganizations": ["Theta Tau: Professional Co-Ed Fraternity", "Stony Brook Computing Society"]	
 	},
 	"skills":{
@@ -27,7 +28,8 @@
 					"Understood, Assimilated and Thrived in a large software engineering environment where the process for development was already set.",
 					"Worked with various experienced engineers to be able to gain an understanding of multiple aspects regarding a problem to then come up with a solution.",
 					"Secured return full-time offer"
-				]
+				],
+				"image": "images/amazon.jpg"
 			},
 			{
 				"jobTitle": "Software Engineer and Robotics Intern",
@@ -40,7 +42,8 @@
 					"Captured and procured data at 50 times the speed in comparison to an older test bed that was being used.",
 					"Mastered skills revolving around a Unix development environment while being able to stay on track and consistently meet deadlines.",
 					"Implemented a machine learning pipeline to classify between the RF samples and identify which device was transmitting."
-				]
+				],
+				"image": "images/interdigital.png"
 			},
 			{
 				"jobTitle":"Computer Science Teaching Assistant",
@@ -51,7 +54,8 @@
 					"Led large group recitation sessions of about 30 people, initiating discussions centered around different data structures",
 					"Conducted office hours to tutor peer’s one-on-one and in small groups to assert their understanding which resulted in higher grades",
 					"Communicated with the school faculty and met new students daily."
-				]
+				],
+				"image":"images/sbu.jpg"
 			},
 			{
 				"jobTitle": "Lab Software Engineering Intern",
@@ -62,7 +66,8 @@
 					"Remodeled the Spinal Cord Rehabilitation Research process by developing software using python to automate the process",
 					"Designed scripts that used neural EMG pattern recognition techniques for real-time stimulation adjustments for the test subjects.",
 					"Used MATLAB to create many scripts which allowed effective data visualization of multiple gigabytes of data."
-				]
+				],
+				"image":"images/sbu.jpg"
 			},
 			{
 				"jobTitle": "Webpage/Application Development Intern",
@@ -72,7 +77,8 @@
 				"description": [
 					"Contributed to the full stack development process by converting mock-up designs to websites for clients using HTML/CSS/JavaScript.",
 					"Implemented efficient ways to manage things such as Physical Identity through RFID systems."
-				]
+				],
+				"image":"images/quantumsecure.png"
 			}
 		],
 		"nonTechnicalJobs":[
@@ -86,7 +92,8 @@
 					"Assisted in the mechanical and electrical sides of the final robot production.",
 					"Worked with various frameworks and niche pieces of hardware to further develop skills in the IoT.",
 					"Elected as the M.V.P for the team at the SBPLI Hofstra regional."
-				]
+				],
+				"image":"images/first.jpg"
 			},
 			{
 				"jobTitle": "Sales Associate",
@@ -96,7 +103,8 @@
 				"description": [
 					"Generated $400,000 in revenue over the span of 5 months of employment and was the number one associate in the PC department",
 					"Worked with multiple other associates and kept a strong sense of teamwork to continuously make monthly goals in terms of sales."
-				]
+				],
+				"image":"images/bestbuy.jpg"
 			},
 			{
 				"jobTitle": "Teacher/Tutor (Math)",
@@ -107,7 +115,8 @@
 					"Taught students ranging from K to 12 all topics of Math for their level (Kumon Levels A to X).",
 					"Focused on specifically tailoring lessons towards individual students based on their learning style.",
 					"Occasionally met with students’ parents to introduce new levels and grading methods"
-				]
+				],
+				"image":"images/kumon.jpg"
 			},
 			{
 				"jobTitle": "SASC Course Note Taker (CSE 532 - Theory of Database Systems)",
@@ -117,7 +126,8 @@
 				"description": [
 					"Attended lectures and take notes for an unidentified DSS/SASC student needing accommodations.",
 					"Organized and timely upload notes to the appropriate location so student could receive them weekly."
-				]
+				],
+				"image":"images/sbu.jpg"
 			},
 			{
 				"jobTitle": "Welcome Wagon Quad Coordinator",
@@ -126,7 +136,8 @@
 				"timeFrame": "August 2017",
 				"description": [
 					"Monitored and led the helping of new students moving onto campus while telling them about the campus due to early exposure."
-				]
+				],
+				"image":"images/sbu.jpg"
 			},
 			{
 				"jobTitle": "Engineering Project Chair",
@@ -135,7 +146,8 @@
 				"timeFrame": "April 2017 – April 2018",
 				"description": [
 					"Oversee the production of all the projects that take place within the fraternity and with other organizations on campus."
-				]
+				],
+				"image":"images/thetatau.png"
 			}
 		]
 	},
@@ -184,7 +196,6 @@
 				"Implemented the idea of using image processing captured by a regular webcam which then told the subject standing in front of it if they showed signs of structural scoliosis based on the direction of their spinal activity.",
 				"Demonstrated a simple solution that can be easily deployed helping many people around the world."
 			]
-
 		},
 		{
 			"projectTitle": "Metro Map Maker",

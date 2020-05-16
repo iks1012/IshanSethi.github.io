@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--<script src="scripts/me.json"></script>-->
 	<script src="scripts/main.js"></script>
 	</head>
 	<body class = "back">
@@ -18,7 +19,7 @@
 				<div class = "col-sm-12">
 					<center>
 						<h1>
-							<div id = "name">Ishan Sethi<div>
+							<div id = "name">Ishan Sethi</div>
 						</h1>
 					</center>
 				</div>
@@ -43,19 +44,19 @@
 				<center><h2>Education</h2></center>
 				<hr>
 				<div class="media col-sm-4">
-					<center><img class="media-object img-responsive" src="images/sbu.jpg" ></center>
+					<center><img id = 'educationImage' class="media-object img-responsive" src="images/sbu.jpg" ></center>
 				</div>
 				<div class="media col-sm-8">
 					<left>
-						<h4 class="media-heading">
-						<div id = "school"></div></h4>
-						<div id = "degrees"> </div>
+						<h3 class="media-heading">
+						<div id = "school"></div></h3>
+						<div id = "degrees"></div>
 						<hr>
-						<h5>Keystone Courses:</h5>
+						<h4>Favorite Courses:</h4>
 						<div id = "featuredCourses">
 						</div>
 						<hr>
-						<h5>Keystone Organizations:</h5>
+						<h5>Organizations:</h5>
 						<div id = "featuredOrganizations">
 						</div>
 					</left>
@@ -82,8 +83,7 @@
 					<center><img class="media-object img-responsive" src="images/CEWIT.jpg" ></center>
 				</div>
 				<div class="media col-sm-10">
-					<left>
-
+					<div>
 						<h4 class="media-heading"><a href="https://devpost.com/software/medicalimaging">Medical Imaging</a></h4>
 						Hack@CEWIT 2017<br>
 						Center of Excellence in Wireless and Information Technology (CEWIT), Stony Brook, New York<br>
@@ -92,7 +92,7 @@
 							<li>We used Java for the processing and made an app using FXML for the GUI. (Repository in GitHub)</li>
 							<li>We implemented the idea of using image processing captured by a regular webcam which then told the subject standing in front of it if they showed signs of structural scoliosis based on the direction of their spinal activity. </li>
 							<li>This was a simple solution that can be easily deployed helping millions around the world.</li>
-					</left>
+					</div>
 				</div>
 			</div>
 
@@ -102,19 +102,36 @@
 				<center><h2>Work Experience</h2></center>
 				<hr>
 
-				<div class="media col-sm-2">
-					<center><img class="media-object img-responsive" src="images/sbu.jpg" ></center>
+
+				<center>
+					<div>
+						<button id="tablinks" class = "tab" onclick="openSubTab('technicalWorkExperience')">Technical Experience</button>
+						<button id="tablinks" class = "tab" onclick="openSubTab('nonTechnicalWorkExperience')">Non-Technical Experience</button>
+					</div>
+				</center>
+
+				<hr>
+
+				<div id = 'technicalWorkExperience'>
+					<div class="media col-sm-2">
+						<center><img class="media-object img-responsive" src="images/sbu.jpg" ></center>
+					</div>
+					<div class="media col-sm-10">
+						<left>
+							<h4 class="media-heading">Computer Science Teaching Assistant</h4>
+							Undergraduate Teaching Practicum<br>
+							Stony Brook University, Stony Brook, New York<br>
+							August 2017 to December 2017
+							<hr>
+							<li>Led large group recitation sessions, initiating discussions centered around different data structures.</li>
+							<li>Conducted office hours to tutor peer’s one-on-one and in small groups.</li>
+							<li>Communicated with the school faculty and met new students regularly.</li>
+						</left>
+					</div>
 				</div>
-				<div class="media col-sm-10">
-					<left>
-						<h4 class="media-heading">Computer Science Teaching Assistant</h4>Undergraduate Teaching Practicum<br>
-						Stony Brook University, Stony Brook, New York<br>
-						August 2017 to December 2017
-						<hr>
-						<li>Led large group recitation sessions, initiating discussions centered around different data structures.</li>
-						<li>Conducted office hours to tutor peer’s one-on-one and in small groups.</li>
-						<li>Communicated with the school faculty and met new students regularly.</li>
-					</left>
+
+				<div id = 'nonTechnicalWorkExperience'>
+					Non-Technical Work Experience
 				</div>
 			</div>
 
